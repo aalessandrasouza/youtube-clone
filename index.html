@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YouTube Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <button class="btn-menu" aria-label="Abrir menu">
+            <img class="icon-btn" src="icon/menu.png" alt="menu" />
+        </button>
+
+
+        <form class="search-form" role="search" aria-label="Pesquisar vídeos">
+            <input type="search" placeholder="Pesquisar" aria-label="Campo de busca" />
+            <button type="submit" aria-label="Buscar">
+                <img class="icon-btn" src="icon/search.png" alt="Buscar" />
+            </button>
+        </form>
+
+        <nav class="header-icons" aria-label="Ações do usuário">
+            <button class="btn-action" type="button" aria-label="Curtir vídeo">
+                <img src="icon/video.png" alt="Criar vídeo" />
+            </button>
+            <button class="btn-action" type="button" aria-label="Curtir vídeo">
+                <img src="icon/bell.png" alt="Notificações" />
+            </button>
+            <button aria-label="" class="icon-btn profile-btn">
+                <img src="icon/photo.png" alt="Foto do usuário" />
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="video-section">
+            <div class="video-player" role="region" aria-label="Reprodutor de vídeo">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?si=RDOYyFw2jIpyylRL" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <article class="video-info">
+                <h1 class="video-title">
+                lofi hip hop radio 📚 beats to relax/study to 
+                </h1>
+                <div class="channel-actions">
+                    <div class="channel-info">
+                        <img class="channel-avatar" src="img/profile.jpg" alt="Logo do canal Lofi Girl" />
+                        <div class="channel-text">
+                            <p class="channel-name">Lofi Girl</p>
+                            <p class="channel-subscribers">15,6 mil inscritos</p>
+                        </div>
+                    </div>
+                    <button class="btn-subscribe" aria-label="Inscrever-se no canal">INSCREVA-SE</button>
+                </div>
+
+                <div class="video-stats-actions">
+                    <div class="stats">
+                        <button class="btn-action" type="button" aria-label="Curtir vídeo">
+                            <img src="icon/like.png" alt="Gostei" /> Gostei
+                        </button>
+                        <button class="btn-action" type="button" aria-label="Não gostei do vídeo">
+                            <img src="icon/deslike.png" alt="Não gostei" /> Não gostei
+                        </button>
+                    </div>
+
+                    <div class="actions">
+                        <button class="btn-action" type="button" aria-label="Compartilhar vídeo">
+                            <img src="icon/compartilhar.png" alt="Curtir" /> Compartilhar
+                        </button>
+                        <button class="btn-action" type="button" aria-label="Fazer download do vídeo">
+                            <img src="icon/download.png" alt="Curtir" /> Download
+                        </button>
+                    </div>
+                </div>
+
+                <p class="video-views-date"><strong>28.418 visualizações</strong> &bull; Transmitido ao vivo
+                    </p>
+                <p class="video-description">
+                    
+                    All visuals and music in this video are 100% crafted by talented human artists, without the use of AI. We’re committed to delivering genuine, hand-made creations for our audience to enjoy.
+                </p>
+            </article>
+        </section>
+
+        <aside class="recommended-videos" aria-label="Vídeos recomendados">
+            <ul>
+                 <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video6.png" alt="Como aprender a programar Python do ZERO" />
+                        <div class="recommended-info">
+                            <h3>3-hour study with me </h3>
+                            <p class="channel">Celine</p>
+                            <p class="views-date">
+                                97 mil visualizações<br />
+                                Transmitido há 7 meses
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video7.png" alt="Como aprender a programar Python do ZERO" />
+                        <div class="recommended-info">
+                            <h3>Chill Drive - Aesthetic Music</h3>
+                            <p class="channel">Chilli Music</p>
+                            <p class="views-date">
+                                15 mil visualizações<br />
+                                Transmitido há 3 anos
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video8.png" alt="Como aprender a programar Python do ZERO" />
+                        <div class="recommended-info">
+                            <h3>Best of lofi hip hop</h3>
+                            <p class="channel">Lofi Study Room</p>
+                            <p class="views-date">
+                                711 mil visualizações<br />
+                                Transmitido ao vivo
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video1.png" alt="Ciência de dados Unimed - BH" />
+                        <div class="recommended-info">
+                            <h3>Ondas alfas para estudo intenso</h3>
+                            <p class="channel">Brain Waves</p>
+                            <p class="views-date">
+                                2,1 mil visualizações<br />
+                                Transmitido há 2 dias
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video2.png" alt="Scrum Talks" />
+                        <div class="recommended-info">
+                            <h3>Study With Me </h3>
+                            <p class="channel">Lofi Girl</p>
+                            <p class="views-date">
+                                1,6 mil visualizações<br />
+                                Transmitido há 3 dias
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video3.png" alt="Machine Learning Avançado - Fast Track" />
+                        <div class="recommended-info">
+                            <h3>2 Hours of calm piano for Gentle Focus & Emotional Ease</h3>
+                            <p class="channel">Luminous Calm Piano</p>
+                            <p class="views-date">
+                                1,7 mil visualizações<br />
+                                Transmitido há 10 horas
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video4.png" alt="Global Skills #2 - Project Planning" />
+                        <div class="recommended-info">
+                            <h3>Study Session Lofi Hip Hop</h3>
+                            <p class="channel">Lofi Girl</p>
+                            <p class="views-date">
+                                128 mil visualizações<br />
+                                Transmitido há 6 anos
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="recommended-link">
+                        <img src="img/video5.png" alt="Como aprender a programar Python do ZERO" />
+                        <div class="recommended-info">
+                            <h3>Dopamine Hit - 24/7 lofi vibes to lift your mood</h3>
+                            <p class="channel">Afro Lofi</p>
+                            <p class="views-date">
+                                711 visualizações<br />
+                                Transmitido há 6 dias
+                            </p>
+                        </div>
+                    </a>
+                </li>
+               
+
+
+            </ul>
+        </aside>
+    </main>
+</body>
+
+</html>
