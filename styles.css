@@ -217,24 +217,6 @@ ul {
   background-color: #b30000;
 }
 
-/* Estatísticas e ações (curtir, compartilhar, etc) */
-.video-stats-actions {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 12px;
-  gap: 12px;
-  font-size: 0.9rem;
-  color: #606060;
-}
-
-/* Grupos de botões (curtir e ações) */
-.stats,
-.actions {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
 
 /* Botões de ação */
 .btn-action {
